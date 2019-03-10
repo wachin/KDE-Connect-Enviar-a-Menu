@@ -1,0 +1,19 @@
+#	│▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  │
+#	│   Proyecto Facilitar el Software Libre en el Ecuador                                         │
+#	│ https://facilitarelsoftwarelibre.blogspot.com/2018/12/como-instalar-kde-connect-y-las.html   │
+#	│      por Washington Indacochea Delgado (Wachín)                                              │
+#	│       E-Mail: wachin.id@gmail.com en Ecuador                                                 │
+
+
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/all;
+Actions=SendToKDEConnect;
+X-KDE-StartupNotify=false
+X-KDE-Priority=TopLevel
+
+[Desktop Action SendToKDEConnect]
+Name=Enviar a KDEconnect
+Icon=kdeconnect
+Exec=kdeconnect-send %F
